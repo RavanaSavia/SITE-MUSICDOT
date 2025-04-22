@@ -1,0 +1,19 @@
+.titulo{
+background-color: rgb(133, 147, 250);
+font-size: 55px;
+}
+.titulo2{
+  font-size: 45px;
+border-bottom: 2px solid black;
+}
+figure{
+
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+.titulo3{
+  margin-top: 10px;
+}
