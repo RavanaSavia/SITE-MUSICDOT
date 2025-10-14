@@ -1,4 +1,4 @@
-.cabeçalho{
+.cabecalho {
  position:absolute;
  top: 0;
  width: 100%;
@@ -47,7 +47,7 @@
         padding: 2.5em 0;
     }
 
-    .cabecalho__item-menu {
+    .cabecalho__menu {
         background-color: transparent;
     }
 }

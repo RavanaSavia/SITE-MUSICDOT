@@ -75,7 +75,7 @@
 }
 
 .cursos__lista li {
-    border: 1px solid #4286f2;
+    border: 1px solid #4286f4;
     border-radius: 8px;
     box-sizing: border-box;
     display: flex;
@@ -89,7 +89,7 @@
 }
 
 .cursos__lista li:hover {
-    transform: translate(3, .22rem);
+    transform: translate(0, .22rem);
     background-color: rgba(66, 134, 244, 0.337);
     transition: .25s;
 }
@@ -156,11 +156,11 @@
         font-size: 2rem;
     }
 
-    .chamada__titulo {
+    .chamada__cursos__matricula {
         display: none;
     }
 
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(5, 7rem);
         grid-template-rows: 5.5rem 5.5rem 5.5rem;
         gap: .8rem;
@@ -178,7 +178,7 @@
         grid-area: 1/1/span 3/3;
         padding-top: 5.5rem;
         background-clip: 6rem 6rem;
-        background-position: top3.6rem center;
+        background-position: top 3.6rem center;
     }
 }
 
@@ -212,19 +212,19 @@
         order: -1;
         grid-area: 1/1/span 2/2;
         padding-top: 6rem;
-        background-clip: 6rem 6rem;
+        background-size: 6rem 6rem;
         background-position: top 3.6rem center;
     }
 
     .cursos__lista .curso--destaque2 {
         order: -1;
-        grid-area: 1/1/span 2/2;
+        grid-area: 1/4/span 2/5;
         padding-top: 6rem;
         background-size: 6rem 6rem;
         background-position: top 3.6rem center;
     }
 
-    .curso__lista p {
+    .cursos__lista p {
         font-size: .9rem;
     }
 
@@ -236,17 +236,17 @@
 }
 
 @media(min-width:1440px) {
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(6, 11rem);
     }
 }
 
 @media(min-width:1660px) {
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(6, 13rem);
     }
     
-    .curso__lista img {
+    .cursos__lista img {
         width: 3rem;
         height: 3rem;
         margin-bottom: 10px;
