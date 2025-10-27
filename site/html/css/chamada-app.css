@@ -39,7 +39,7 @@
     text-transform: uppercase;
     background-color: #fff;
     border: none;
-    border-radius: border 5px;
+    border-radius: 5px;
     width: 5.9rem;
     padding: 1rem 0 1rem 1rem;
     box-sizing: border-box;
@@ -50,7 +50,8 @@
 
 .app__download--android {
 background-image: url(..//img/icone-android-logo.svg);
-background-position: left 1rem top .4rem;
+background-position: left .5rem center;
+padding-left: 1.4rem;
 }
 
 .app__download--ios {
